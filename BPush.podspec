@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.subspec 'normal' do |sp|
     sp.source_files = 'File/normalversion/*.h'
     sp.public_header_files = 'File/normalversion/*.h'
-    sp.vendored_libraries = File/normalversion/*.a'
+    sp.vendored_libraries = 'File/normalversion/*.a'
     sp.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
     sp.libraries = 'z'
   end
