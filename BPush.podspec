@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.default_subspecs = 'normal'
   
   s.subspec 'normal' do |sp|
-    sp.source_files = 'BPush-SDK-iOS-#{s.version}/normalversion/*.h'
+    sp.source_files = 'BPush-SDK-iOS-1.5.4/normalversion/*.h'
     sp.public_header_files = 'BPush-SDK-iOS-1.5.4/normalversion/*.h'
     sp.vendored_libraries = 'BPush-SDK-iOS-1.5.4/normalversion/*.a'
     sp.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   end
   
   s.subspec 'idfa' do |sp|
-    sp.source_files = 'BPush-SDK-iOS-#{s.version}/idfaversion/*.h'
+    sp.source_files = 'BPush-SDK-iOS-1.5.4/idfaversion/*.h'
     sp.public_header_files = 'BPush-SDK-iOS-1.5.4/idfaversion/*.h'
     sp.vendored_libraries = 'BPush-SDK-iOS-1.5.4/idfaversion/*.a'
     sp.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
