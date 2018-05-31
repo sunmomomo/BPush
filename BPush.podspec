@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = 'https://github.com/sunmomomo/BPush'
   s.license      = { :type => 'Copyright', :text => 'LICENSE ©2015-2018 Baidu, Inc. All rights reserved' }
   s.author       = { 'sunmomomo' => '348384930@qq.com' }
-  s.source       = { :git => 'https://github.com/sunmomomo/BPush'}
+  s.source       = { :git => 'https://github.com/sunmomomo/BPush.git',:tag => "#{s.version}"}
   
   s.ios.deployment_target = '7.0'
   s.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
