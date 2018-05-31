@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = 'BPushSDK'
+  s.name         = 'BPush'
   s.version      = '1.5.4'
   s.summary      = 'Baidu Push SDK for iOS.'
   s.homepage     = 'https://github.com/sunmomomo/BPush'
