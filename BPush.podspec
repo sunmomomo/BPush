@@ -14,17 +14,17 @@ Pod::Spec.new do |s|
   s.default_subspecs = 'normal'
   
   s.subspec 'normal' do |sp|
-    sp.source_files = 'normalversion/*.h'
-    sp.public_header_files = 'normalversion/*.h'
-    sp.vendored_libraries = 'normalversion/*.a'
+    sp.source_files = 'BPush/normalversion/*.h'
+    sp.public_header_files = 'BPush/normalversion/*.h'
+    sp.vendored_libraries = 'BPush/normalversion/*.a'
     sp.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
     sp.libraries = 'z'
   end
   
   s.subspec 'idfa' do |sp|
-    sp.source_files = 'idfaversion/*.h'
-    sp.public_header_files = 'idfaversion/*.h'
-    sp.vendored_libraries = 'idfaversion/*.a'
+    sp.source_files = 'BPush/idfaversion/*.h'
+    sp.public_header_files = 'BPush/idfaversion/*.h'
+    sp.vendored_libraries = 'BPush/idfaversion/*.a'
     sp.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
     sp.libraries = 'z'
   end
