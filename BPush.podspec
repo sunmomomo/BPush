@@ -29,4 +29,3 @@ Pod::Spec.new do |s|
     sp.libraries = 'z'
   end
 end
-end
