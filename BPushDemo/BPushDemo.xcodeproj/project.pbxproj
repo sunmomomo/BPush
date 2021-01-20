@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A36B8BDA25B8242F00B0A3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BD925B8242F00B0A3FE /* Foundation.framework */; };
+		A36B8BDC25B8243500B0A3FE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BDB25B8243500B0A3FE /* CoreTelephony.framework */; };
+		A36B8BDE25B8243E00B0A3FE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BDD25B8243E00B0A3FE /* libz.tbd */; };
+		A36B8BE225B8244700B0A3FE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BE125B8244700B0A3FE /* SystemConfiguration.framework */; };
+		A36B8BE425B8244D00B0A3FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BE325B8244D00B0A3FE /* CoreLocation.framework */; };
+		A36B8BE725B8246A00B0A3FE /* libBPush.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BE625B8246A00B0A3FE /* libBPush.a */; };
 		A3E464CF20BF9884003E7E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E464CE20BF9884003E7E66 /* AppDelegate.m */; };
 		A3E464D220BF9884003E7E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E464D120BF9884003E7E66 /* ViewController.m */; };
 		A3E464D520BF9884003E7E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E464D320BF9884003E7E66 /* Main.storyboard */; };
@@ -28,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A36B8BD925B8242F00B0A3FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A36B8BDB25B8243500B0A3FE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A36B8BDD25B8243E00B0A3FE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A36B8BE125B8244700B0A3FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A36B8BE325B8244D00B0A3FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A36B8BE525B8246A00B0A3FE /* BPush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPush.h; sourceTree = "<group>"; };
+		A36B8BE625B8246A00B0A3FE /* libBPush.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBPush.a; sourceTree = "<group>"; };
 		A3E464CA20BF9884003E7E66 /* BPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E464CD20BF9884003E7E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A3E464CE20BF9884003E7E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +62,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A36B8BE425B8244D00B0A3FE /* CoreLocation.framework in Frameworks */,
+				A36B8BE225B8244700B0A3FE /* SystemConfiguration.framework in Frameworks */,
+				A36B8BDE25B8243E00B0A3FE /* libz.tbd in Frameworks */,
+				A36B8BDC25B8243500B0A3FE /* CoreTelephony.framework in Frameworks */,
+				A36B8BE725B8246A00B0A3FE /* libBPush.a in Frameworks */,
+				A36B8BDA25B8242F00B0A3FE /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +81,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A36B8BD825B8242F00B0A3FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A36B8BE325B8244D00B0A3FE /* CoreLocation.framework */,
+				A36B8BE125B8244700B0A3FE /* SystemConfiguration.framework */,
+				A36B8BDD25B8243E00B0A3FE /* libz.tbd */,
+				A36B8BDB25B8243500B0A3FE /* CoreTelephony.framework */,
+				A36B8BD925B8242F00B0A3FE /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A3E464C120BF9884003E7E66 = {
 			isa = PBXGroup;
 			children = (
 				A3E464CC20BF9884003E7E66 /* BPushDemo */,
 				A3E464E820BF9886003E7E66 /* BPushDemoTests */,
 				A3E464CB20BF9884003E7E66 /* Products */,
+				A36B8BD825B8242F00B0A3FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,6 +125,8 @@
 				A3E464DE20BF9886003E7E66 /* Info.plist */,
 				A3E464DF20BF9886003E7E66 /* main.m */,
 				A3E464D620BF9885003E7E66 /* BPushDemo.xcdatamodeld */,
+				A36B8BE525B8246A00B0A3FE /* BPush.h */,
+				A36B8BE625B8246A00B0A3FE /* libBPush.a */,
 			);
 			path = BPushDemo;
 			sourceTree = "<group>";
@@ -368,9 +402,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CJFGNZZ4X;
 				INFOPLIST_FILE = BPushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BPushDemo",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.qingchengfit.BPushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -385,10 +424,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9CJFGNZZ4X;
 				INFOPLIST_FILE = BPushDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/BPushDemo",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = it.qingchengfit.BPushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
