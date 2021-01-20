@@ -1,6 +1,6 @@
 //
 //  BPush.h
-//  Version: 1.5.4
+//  Version: 1.6.2
 //  百度云推送iOS版本头文件 //
 //
 
@@ -236,7 +236,6 @@ typedef void (^BPushCallBack)(id result, NSError *error);
  * 清除所有本地推送对象
  */
 + (void)clearAllLocalNotifications;
-
 
 @end
 
