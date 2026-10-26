@@ -1,13 +1,13 @@
 Pod::Spec.new do |s|
   s.name         = 'BPush'
-  s.version      = '2.1.9'
+  s.version      = '2.1.10'
   s.summary      = 'Baidu Push SDK for iOS.'
   s.homepage     = 'https://github.com/sunmomomo/BPush'
   s.license      = { :type => 'Copyright', :text => 'LICENSE ©2015-2018 Baidu, Inc. All rights reserved' }
   s.author       = { 'sunmomomo' => '348384930@qq.com' }
   s.source       = { :git => 'https://github.com/sunmomomo/BPush.git',:tag => "#{s.version}"}
   
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '15.0'
   s.frameworks = 'Foundation','CoreTelephony','SystemConfiguration'
   s.libraries = 'z'
   s.requires_arc = false

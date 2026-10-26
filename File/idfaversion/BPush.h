@@ -1,6 +1,6 @@
 //
 //  BPush.h
-//  Version: 1.6.2
+//  Version: 2.2.0
 //  百度云推送iOS版本头文件 //
 //
 
@@ -29,8 +29,15 @@ extern NSString *const BPushRequestMethodListTag;
  * @brief 当前推送的环境
  */
 typedef NS_ENUM(NSInteger, BPushMode){
-    BPushModeDevelopment, // 开发测试环境
+    BPushModeDevelopment = 1, // 开发测试环境
     BPushModeProduction, // AppStore 上线环境  AdHoc 内部测试用的生产环境
+    BPushModeEnterPriseDevelpment,  // 企业证书开发环境测试
+    BPushModeEnterPriseProduction,  // 企业证书正式环境
+};
+
+typedef NS_ENUM(NSInteger, BPushClearBadgeMode) {
+    BPushClearBadgeModeDefault, // 删除 app 角标和推送通知
+    BPushClearBadgeModeOnlyBadgeCount // 仅删除 app 角标
 };
 
 /**
@@ -39,7 +46,6 @@ typedef NS_ENUM(NSInteger, BPushMode){
  *	@discussion 用来设定异步调用的回调
  */
 typedef void (^BPushCallBack)(id result, NSError *error);
-
 
 @interface BPush : NSObject
 /**
@@ -204,11 +210,7 @@ typedef void (^BPushCallBack)(id result, NSError *error);
  * @param category 自定义参数 一组动作的唯一标示 默认为nil iOS 9 快捷回复需要先设置此参数
  * IOS 9 新参数
  * @param behaviorTextInput 是否启用 iOS 9 快捷回复
-
- 
  */
-
-
 + (void)localNotification:(NSDate *)date alertBody:(NSString *)body badge:(int)bage  withFirstAction:(NSString *)rightAction withSecondAction:(NSString *)leftAction userInfo:(NSDictionary *)userInfo soundName:(NSString *)soundName region:(CLRegion *)region regionTriggersOnce:(BOOL)regionTriggersOnce category:(NSString *)category useBehaviorTextInput:(BOOL)behaviorTextInput;
 
 /**
@@ -217,6 +219,7 @@ typedef void (^BPushCallBack)(id result, NSError *error);
  * @param notificationKey 需要前台显示的本地推送通知的标示符
  */
 + (void)showLocalNotificationAtFront:(UILocalNotification *)notification identifierKey:(NSString *)notificationKey;
+
 /**
  * 删除本地推送
  * @param notificationKey 本地推送标示符
@@ -224,6 +227,25 @@ typedef void (^BPushCallBack)(id result, NSError *error);
  */
 + (void)deleteLocalNotificationWithIdentifierKey:(NSString *)notificationKey;
 + (void)deleteLocalNotification:(UILocalNotification *)localNotification;
+
+/**
+ * 设置删除角标方式
+ * @param badgeMode 删除通知角标方式 默认：default
+ */
++ (void)setClearBadgeMode:(BPushClearBadgeMode)badgeMode;
+
+/**
+ * 清除角标
+ * @param badgeMode 默认是 BPushClearBadgeModeDefault
+ */
++ (void)clearBadge:(BPushCallBack)callBack;
+
+/**
+ * 清除角标
+ * @param badgeMode 默认是 BPushClearBadgeModeDefault
+ * @param callBack 清除结果回调
+ */
++ (void)clearBadgeMode:(BPushClearBadgeMode)badgeMode callBack:(BPushCallBack)callBack;
 
 /**
  * 获取指定通知
@@ -238,7 +260,3 @@ typedef void (^BPushCallBack)(id result, NSError *error);
 + (void)clearAllLocalNotifications;
 
 @end
-
-
-
-
