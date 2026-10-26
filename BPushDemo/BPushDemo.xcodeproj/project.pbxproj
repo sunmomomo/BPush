@@ -3,288 +3,126 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 110;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A36B8BDA25B8242F00B0A3FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BD925B8242F00B0A3FE /* Foundation.framework */; };
-		A36B8BDC25B8243500B0A3FE /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BDB25B8243500B0A3FE /* CoreTelephony.framework */; };
-		A36B8BDE25B8243E00B0A3FE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BDD25B8243E00B0A3FE /* libz.tbd */; };
-		A36B8BE225B8244700B0A3FE /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BE125B8244700B0A3FE /* SystemConfiguration.framework */; };
-		A36B8BE425B8244D00B0A3FE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A36B8BE325B8244D00B0A3FE /* CoreLocation.framework */; };
-		A3E464CF20BF9884003E7E66 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E464CE20BF9884003E7E66 /* AppDelegate.m */; };
-		A3E464D220BF9884003E7E66 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E464D120BF9884003E7E66 /* ViewController.m */; };
-		A3E464D520BF9884003E7E66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E464D320BF9884003E7E66 /* Main.storyboard */; };
-		A3E464D820BF9885003E7E66 /* BPushDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3E464D620BF9885003E7E66 /* BPushDemo.xcdatamodeld */; };
-		A3E464DA20BF9886003E7E66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3E464D920BF9886003E7E66 /* Assets.xcassets */; };
-		A3E464DD20BF9886003E7E66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3E464DB20BF9886003E7E66 /* LaunchScreen.storyboard */; };
-		A3E464E020BF9886003E7E66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E464DF20BF9886003E7E66 /* main.m */; };
-		A3E464EA20BF9886003E7E66 /* BPushDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E464E920BF9886003E7E66 /* BPushDemoTests.m */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		A3E464E620BF9886003E7E66 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A3E464C220BF9884003E7E66 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A3E464C920BF9884003E7E66;
-			remoteInfo = BPushDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		A36B8BD925B8242F00B0A3FE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A36B8BDB25B8243500B0A3FE /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		A36B8BDD25B8243E00B0A3FE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		A36B8BE125B8244700B0A3FE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		A36B8BE325B8244D00B0A3FE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		A3E464CA20BF9884003E7E66 /* BPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3E464CD20BF9884003E7E66 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		A3E464CE20BF9884003E7E66 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A3E464D020BF9884003E7E66 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A3E464D120BF9884003E7E66 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		A3E464D420BF9884003E7E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A3E464D720BF9885003E7E66 /* BPushDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BPushDemo.xcdatamodel; sourceTree = "<group>"; };
-		A3E464D920BF9886003E7E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A3E464DC20BF9886003E7E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A3E464DF20BF9886003E7E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		A3E464E520BF9886003E7E66 /* BPushDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPushDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3E464E920BF9886003E7E66 /* BPushDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPushDemoTests.m; sourceTree = "<group>"; };
-		A3E464EB20BF9886003E7E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F7E8B3308F2BFF003669DD /* BPushDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BPushDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		A3E464C720BF9884003E7E66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A36B8BE425B8244D00B0A3FE /* CoreLocation.framework in Frameworks */,
-				A36B8BE225B8244700B0A3FE /* SystemConfiguration.framework in Frameworks */,
-				A36B8BDE25B8243E00B0A3FE /* libz.tbd in Frameworks */,
-				A36B8BDC25B8243500B0A3FE /* CoreTelephony.framework in Frameworks */,
-				A36B8BDA25B8242F00B0A3FE /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A3F7E8B5308F2BFF003669DD /* BPushDemo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BPushDemo;
+			sourceTree = "<group>";
 		};
-		A3E464E220BF9886003E7E66 /* Frameworks */ = {
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F7E8B0308F2BFF003669DD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A36B8BD825B8242F00B0A3FE /* Frameworks */ = {
+		A3F7E8AA308F2BFF003669DD = {
 			isa = PBXGroup;
 			children = (
-				A36B8BE325B8244D00B0A3FE /* CoreLocation.framework */,
-				A36B8BE125B8244700B0A3FE /* SystemConfiguration.framework */,
-				A36B8BDD25B8243E00B0A3FE /* libz.tbd */,
-				A36B8BDB25B8243500B0A3FE /* CoreTelephony.framework */,
-				A36B8BD925B8242F00B0A3FE /* Foundation.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		A3E464C120BF9884003E7E66 = {
-			isa = PBXGroup;
-			children = (
-				A3E464CC20BF9884003E7E66 /* BPushDemo */,
-				A3E464E820BF9886003E7E66 /* BPushDemoTests */,
-				A3E464CB20BF9884003E7E66 /* Products */,
-				A36B8BD825B8242F00B0A3FE /* Frameworks */,
+				A3F7E8B5308F2BFF003669DD /* BPushDemo */,
+				A3F7E8B4308F2BFF003669DD /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		A3E464CB20BF9884003E7E66 /* Products */ = {
+		A3F7E8B4308F2BFF003669DD /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A3E464CA20BF9884003E7E66 /* BPushDemo.app */,
-				A3E464E520BF9886003E7E66 /* BPushDemoTests.xctest */,
+				A3F7E8B3308F2BFF003669DD /* BPushDemo.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		A3E464CC20BF9884003E7E66 /* BPushDemo */ = {
-			isa = PBXGroup;
-			children = (
-				A3E464CD20BF9884003E7E66 /* AppDelegate.h */,
-				A3E464CE20BF9884003E7E66 /* AppDelegate.m */,
-				A3E464D020BF9884003E7E66 /* ViewController.h */,
-				A3E464D120BF9884003E7E66 /* ViewController.m */,
-				A3E464D320BF9884003E7E66 /* Main.storyboard */,
-				A3E464D920BF9886003E7E66 /* Assets.xcassets */,
-				A3E464DB20BF9886003E7E66 /* LaunchScreen.storyboard */,
-				A3E464DF20BF9886003E7E66 /* main.m */,
-				A3E464D620BF9885003E7E66 /* BPushDemo.xcdatamodeld */,
-			);
-			path = BPushDemo;
-			sourceTree = "<group>";
-		};
-		A3E464E820BF9886003E7E66 /* BPushDemoTests */ = {
-			isa = PBXGroup;
-			children = (
-				A3E464E920BF9886003E7E66 /* BPushDemoTests.m */,
-				A3E464EB20BF9886003E7E66 /* Info.plist */,
-			);
-			path = BPushDemoTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A3E464C920BF9884003E7E66 /* BPushDemo */ = {
+		A3F7E8B2308F2BFF003669DD /* BPushDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A3E464EE20BF9886003E7E66 /* Build configuration list for PBXNativeTarget "BPushDemo" */;
+			buildConfigurationList = A3F7E8BE308F2C00003669DD /* Build configuration list for PBXNativeTarget "BPushDemo" */;
 			buildPhases = (
-				A3E464C620BF9884003E7E66 /* Sources */,
-				A3E464C720BF9884003E7E66 /* Frameworks */,
-				A3E464C820BF9884003E7E66 /* Resources */,
+				A3F7E8AF308F2BFF003669DD /* Sources */,
+				A3F7E8B0308F2BFF003669DD /* Frameworks */,
+				A3F7E8B1308F2BFF003669DD /* Resources */,
 			);
 			buildRules = (
 			);
-			dependencies = (
+			fileSystemSynchronizedGroups = (
+				A3F7E8B5308F2BFF003669DD /* BPushDemo */,
 			);
 			name = BPushDemo;
 			productName = BPushDemo;
-			productReference = A3E464CA20BF9884003E7E66 /* BPushDemo.app */;
+			productReference = A3F7E8B3308F2BFF003669DD /* BPushDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		A3E464E420BF9886003E7E66 /* BPushDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A3E464F120BF9886003E7E66 /* Build configuration list for PBXNativeTarget "BPushDemoTests" */;
-			buildPhases = (
-				A3E464E120BF9886003E7E66 /* Sources */,
-				A3E464E220BF9886003E7E66 /* Frameworks */,
-				A3E464E320BF9886003E7E66 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A3E464E720BF9886003E7E66 /* PBXTargetDependency */,
-			);
-			name = BPushDemoTests;
-			productName = BPushDemoTests;
-			productReference = A3E464E520BF9886003E7E66 /* BPushDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		A3E464C220BF9884003E7E66 /* Project object */ = {
+		A3F7E8AB308F2BFF003669DD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "馍馍帝👿";
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2700;
+				LastUpgradeCheck = 2700;
 				TargetAttributes = {
-					A3E464C920BF9884003E7E66 = {
-						CreatedOnToolsVersion = 9.4;
-					};
-					A3E464E420BF9886003E7E66 = {
-						CreatedOnToolsVersion = 9.4;
-						TestTargetID = A3E464C920BF9884003E7E66;
+					A3F7E8B2308F2BFF003669DD = {
+						CreatedOnToolsVersion = 27.0;
 					};
 				};
 			};
-			buildConfigurationList = A3E464C520BF9884003E7E66 /* Build configuration list for PBXProject "BPushDemo" */;
-			compatibilityVersion = "Xcode 9.3";
+			buildConfigurationList = A3F7E8AE308F2BFF003669DD /* Build configuration list for PBXProject "BPushDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = A3E464C120BF9884003E7E66;
-			productRefGroup = A3E464CB20BF9884003E7E66 /* Products */;
+			mainGroup = A3F7E8AA308F2BFF003669DD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A3F7E8B4308F2BFF003669DD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A3E464C920BF9884003E7E66 /* BPushDemo */,
-				A3E464E420BF9886003E7E66 /* BPushDemoTests */,
+				A3F7E8B2308F2BFF003669DD /* BPushDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		A3E464C820BF9884003E7E66 /* Resources */ = {
+		A3F7E8B1308F2BFF003669DD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3E464DD20BF9886003E7E66 /* LaunchScreen.storyboard in Resources */,
-				A3E464DA20BF9886003E7E66 /* Assets.xcassets in Resources */,
-				A3E464D520BF9884003E7E66 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3E464E320BF9886003E7E66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A3E464C620BF9884003E7E66 /* Sources */ = {
+		A3F7E8AF308F2BFF003669DD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
 			files = (
-				A3E464D820BF9885003E7E66 /* BPushDemo.xcdatamodeld in Sources */,
-				A3E464D220BF9884003E7E66 /* ViewController.m in Sources */,
-				A3E464E020BF9886003E7E66 /* main.m in Sources */,
-				A3E464CF20BF9884003E7E66 /* AppDelegate.m in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A3E464E120BF9886003E7E66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A3E464EA20BF9886003E7E66 /* BPushDemoTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		A3E464E720BF9886003E7E66 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A3E464C920BF9884003E7E66 /* BPushDemo */;
-			targetProxy = A3E464E620BF9886003E7E66 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		A3E464D320BF9884003E7E66 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3E464D420BF9884003E7E66 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A3E464DB20BF9886003E7E66 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A3E464DC20BF9886003E7E66 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
-		A3E464EC20BF9886003E7E66 /* Debug */ = {
+		A3F7E8BC308F2C00003669DD /* Debug configuration for PBXProject "BPushDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -303,20 +141,20 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DONT_GENERATE_INFOPLIST_FILE = NO;
+				DEVELOPMENT_TEAM = YC9K2F4698;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -330,23 +168,25 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = "iOS 15";
-				MTL_ENABLE_DEBUG_INFO = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		A3E464ED20BF9886003E7E66 /* Release */ = {
+		A3F7E8BD308F2C00003669DD /* Release configuration for PBXProject "BPushDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -365,20 +205,20 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DONT_GENERATE_INFOPLIST_FILE = NO;
+				DEVELOPMENT_TEAM = YC9K2F4698;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -386,154 +226,101 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = "iOS 15";
+				IPHONEOS_DEPLOYMENT_TARGET = 27.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		A3E464EF20BF9886003E7E66 /* Debug */ = {
+		A3F7E8BF308F2C00003669DD /* Debug configuration for PBXNativeTarget "BPushDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CJFGNZZ4X;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC9K2F4698;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BPushDemo/Info.plist;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BPushDemo",
-				);
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = it.qingchengfit.BPushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		A3E464F020BF9886003E7E66 /* Release */ = {
+		A3F7E8C0308F2C00003669DD /* Release configuration for PBXNativeTarget "BPushDemo" */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CJFGNZZ4X;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YC9K2F4698;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = BPushDemo/Info.plist;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UIRequiredDeviceCapabilities = armv7;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/BPushDemo",
-				);
-				ONLY_ACTIVE_ARCH = YES;
+				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = it.qingchengfit.BPushDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		A3E464F220BF9886003E7E66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CJFGNZZ4X;
-				INFOPLIST_FILE = BPushDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.qingchengfit.BPushDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BPushDemo.app/BPushDemo";
-			};
-			name = Debug;
-		};
-		A3E464F320BF9886003E7E66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9CJFGNZZ4X;
-				INFOPLIST_FILE = BPushDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.qingchengfit.BPushDemoTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BPushDemo.app/BPushDemo";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A3E464C520BF9884003E7E66 /* Build configuration list for PBXProject "BPushDemo" */ = {
+		A3F7E8AE308F2BFF003669DD /* Build configuration list for PBXProject "BPushDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3E464EC20BF9886003E7E66 /* Debug */,
-				A3E464ED20BF9886003E7E66 /* Release */,
+				A3F7E8BC308F2C00003669DD /* Debug configuration for PBXProject "BPushDemo" */,
+				A3F7E8BD308F2C00003669DD /* Release configuration for PBXProject "BPushDemo" */,
 			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A3E464EE20BF9886003E7E66 /* Build configuration list for PBXNativeTarget "BPushDemo" */ = {
+		A3F7E8BE308F2C00003669DD /* Build configuration list for PBXNativeTarget "BPushDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A3E464EF20BF9886003E7E66 /* Debug */,
-				A3E464F020BF9886003E7E66 /* Release */,
+				A3F7E8BF308F2C00003669DD /* Debug configuration for PBXNativeTarget "BPushDemo" */,
+				A3F7E8C0308F2C00003669DD /* Release configuration for PBXNativeTarget "BPushDemo" */,
 			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A3E464F120BF9886003E7E66 /* Build configuration list for PBXNativeTarget "BPushDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A3E464F220BF9886003E7E66 /* Debug */,
-				A3E464F320BF9886003E7E66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		A3E464D620BF9885003E7E66 /* BPushDemo.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				A3E464D720BF9885003E7E66 /* BPushDemo.xcdatamodel */,
-			);
-			currentVersion = A3E464D720BF9885003E7E66 /* BPushDemo.xcdatamodel */;
-			path = BPushDemo.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
-	rootObject = A3E464C220BF9884003E7E66 /* Project object */;
+	rootObject = A3F7E8AB308F2BFF003669DD /* Project object */;
+	validationLevel = 1;
 }
