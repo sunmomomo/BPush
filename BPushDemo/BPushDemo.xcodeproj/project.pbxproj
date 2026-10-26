@@ -47,7 +47,6 @@
 		A3E464D720BF9885003E7E66 /* BPushDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BPushDemo.xcdatamodel; sourceTree = "<group>"; };
 		A3E464D920BF9886003E7E66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3E464DC20BF9886003E7E66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		A3E464DE20BF9886003E7E66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A3E464DF20BF9886003E7E66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A3E464E520BF9886003E7E66 /* BPushDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BPushDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3E464E920BF9886003E7E66 /* BPushDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BPushDemoTests.m; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 				A3E464D320BF9884003E7E66 /* Main.storyboard */,
 				A3E464D920BF9886003E7E66 /* Assets.xcassets */,
 				A3E464DB20BF9886003E7E66 /* LaunchScreen.storyboard */,
-				A3E464DE20BF9886003E7E66 /* Info.plist */,
 				A3E464DF20BF9886003E7E66 /* main.m */,
 				A3E464D620BF9885003E7E66 /* BPushDemo.xcdatamodeld */,
 			);
@@ -315,7 +313,7 @@
 				COPY_PHASE_STRIP = NO;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				DONT_GENERATE_INFOPLIST_FILE = YES;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -333,6 +331,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = "iOS 15";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -376,7 +375,7 @@
 				COPY_PHASE_STRIP = NO;
 				CREATE_INFOPLIST_SECTION_IN_BINARY = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DONT_GENERATE_INFOPLIST_FILE = YES;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -388,6 +387,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = "iOS 15";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
